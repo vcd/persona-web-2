@@ -24,6 +24,18 @@ section {
 	width: 50px;
 }
 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	height: 200px;
+	width: 300px;
+}
+
+.label {
+	float: right;
+	clear: right;
+}
+
 
 /* Show Grid */
 .showgrid {
