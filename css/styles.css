@@ -5,7 +5,8 @@ h2, h3, p {
 
 /* Layout for Style Tile*/
 section {
-	margin: 20px 0;
+	position: relative;
+	margin: 60px 0;
 }
 
 .color-1,
@@ -16,7 +17,10 @@ section {
 .pattern-3, 
 .imagery-1,
 .imagery-2,
-.imagery-3 {
+.imagery-3,
+.icon-1,
+.icon-2,
+.icon-3 {
 	border: 1px solid #000;
 	float: left;
 	margin: 0 10px;
@@ -32,8 +36,15 @@ section {
 }
 
 .label {
-	float: right;
-	clear: right;
+	position: absolute;
+	left: -30px;
+	top: -30px;	
+}
+
+/* Figure */
+figure, 
+figure p {
+	width: 200px;
 }
 
 
